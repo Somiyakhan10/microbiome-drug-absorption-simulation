@@ -1,25 +1,13 @@
-# Microbiome-Drug Absorption Simulation
+Microbiome-Drug Interaction Analysis
+Description
 
-This project simulates and analyzes drug absorption based on microbiome data using Python and machine learning techniques. It also demonstrates a simple digital twin simulation of intestine-on-chip drug absorption.
+This project explores how gut microbiome composition influences drug absorption. By analyzing microbiome data, it generates a biologically meaningful drug absorption model, classifies high vs low absorption using machine learning, and simulates drug release dynamics through a digital twin. The workflow integrates computational biology, microbiome analysis, and pharmacology using Python.
 
-## Project Overview
-The project performs the following steps:
-
-1. **Data Upload and Cleaning**  
-   - Upload CSV dataset interactively (Google Colab)  
-   - Keep numeric columns and fill missing values  
-
-2. **Drug Absorption Modeling**  
-   - Create a drug absorption score using microbiome features  
-   - Add biological noise for realistic simulation  
-   - Convert absorption score to a binary classification (High vs Low absorption)
-
-3. **Machine Learning**  
-   - Train a Random Forest classifier to predict absorption class  
-   - Evaluate model performance using accuracy and classification report  
-   - Identify feature importance (which microbiome features most influence drug absorption)
-
-4. **Digital Twin Simulation**  
-   - Simulate drug absorption over time using exponential absorption curves  
-   - Visualize high vs low absorption scenarios  
+Project Overview
+Load and preprocess microbiome datasets.
+Generate a drug absorption metric based on microbiome features and biological factors.
+Train a Random Forest Classifier to predict high vs low drug absorption.
+Identify key microbial features that influence absorption.
+Visualize microbiome diversity, drug absorption, and drug release kinetics.
+Perform digital twin simulations for intestine-on-chip drug absorption modeling.
 
